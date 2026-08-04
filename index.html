@@ -2,11 +2,34 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Bastián Rivas | Página personal</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Sitio personal y académico de Bastian Alejandro Rivas Maldonado sobre modelación hidrológica, fenotipado digital, reconstrucción 3D, LiDAR y sensores remotos."
+    >
+
+    <title>
+        Bastian Alejandro Rivas Maldonado | Portafolio profesional
+    </title>
 
     <style>
+        :root {
+            --verde-oscuro: #0d2f23;
+            --verde-principal: #176b48;
+            --verde-secundario: #24825b;
+            --verde-claro: #dff3e7;
+            --fondo: #f4f7f5;
+            --blanco: #ffffff;
+            --texto: #263238;
+            --texto-suave: #53635b;
+            --sombra: 0 8px 24px rgba(24, 73, 51, 0.12);
+        }
+
         * {
             box-sizing: border-box;
             margin: 0;
@@ -15,141 +38,533 @@
 
         html {
             scroll-behavior: smooth;
+            scroll-padding-top: 80px;
         }
 
         body {
             font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.6;
-            color: #263238;
-            background-color: #f4f7f5;
+            line-height: 1.65;
+            color: var(--texto);
+            background-color: var(--fondo);
+        }
+
+        img {
+            max-width: 100%;
         }
 
         header {
-            min-height: 90vh;
-            padding: 40px 20px;
+            min-height: 96vh;
+            padding: 50px 20px;
             display: flex;
             align-items: center;
             justify-content: center;
+            position: relative;
+            overflow: hidden;
             text-align: center;
-            color: white;
-            background: linear-gradient(135deg, #123f2d, #2d8058);
+            color: var(--blanco);
+            background:
+                radial-gradient(
+                    circle at 20% 20%,
+                    rgba(115, 204, 154, 0.18),
+                    transparent 32%
+                ),
+                radial-gradient(
+                    circle at 80% 70%,
+                    rgba(91, 174, 129, 0.16),
+                    transparent 32%
+                ),
+                linear-gradient(
+                    135deg,
+                    #0b2b20,
+                    #14573d 50%,
+                    #23825a
+                );
+        }
+
+        header::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            opacity: 0.07;
+            background-image:
+                linear-gradient(
+                    rgba(255,255,255,0.5) 1px,
+                    transparent 1px
+                ),
+                linear-gradient(
+                    90deg,
+                    rgba(255,255,255,0.5) 1px,
+                    transparent 1px
+                );
+            background-size: 45px 45px;
         }
 
         .presentacion {
-            max-width: 850px;
+            width: min(1000px, 100%);
+            position: relative;
+            z-index: 1;
         }
 
-        h1 {
-            margin-bottom: 15px;
-            font-size: clamp(2.8rem, 8vw, 5rem);
+        .etiqueta-principal {
+            display: inline-block;
+            margin-bottom: 22px;
+            padding: 8px 16px;
+            border: 1px solid rgba(255,255,255,0.35);
+            border-radius: 999px;
+            background-color: rgba(255,255,255,0.08);
+            font-size: 0.92rem;
+            font-weight: bold;
+            letter-spacing: 0.04em;
         }
 
-        header h2 {
-            margin-bottom: 25px;
-            font-size: clamp(1.1rem, 3vw, 1.7rem);
+        .presentacion h1 {
+            max-width: 950px;
+            margin: 0 auto 20px;
+            font-size: clamp(2.3rem, 6vw, 5rem);
+            line-height: 1.08;
+        }
+
+        .presentacion h2 {
+            max-width: 900px;
+            margin: 0 auto 24px;
+            font-size: clamp(1.1rem, 2.8vw, 1.65rem);
             font-weight: normal;
+            line-height: 1.45;
+            color: #ddf3e7;
         }
 
-        header p {
-            max-width: 700px;
-            margin: 0 auto 30px;
-            font-size: 1.1rem;
+        .presentacion p {
+            max-width: 820px;
+            margin: 0 auto 32px;
+            font-size: 1.08rem;
+            color: #eef8f2;
+        }
+
+        .botones {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 28px;
         }
 
         .boton {
             display: inline-block;
-            margin: 6px;
             padding: 13px 24px;
-            border: 2px solid white;
-            border-radius: 8px;
-            color: white;
+            border: 2px solid var(--blanco);
+            border-radius: 9px;
+            color: var(--blanco);
             text-decoration: none;
             font-weight: bold;
+            transition:
+                transform 0.25s,
+                background-color 0.25s,
+                color 0.25s;
         }
 
         .boton:hover {
-            color: #164b36;
-            background-color: white;
+            color: var(--verde-oscuro);
+            background-color: var(--blanco);
+            transform: translateY(-3px);
+        }
+
+        .boton-relleno {
+            color: var(--verde-oscuro);
+            background-color: var(--blanco);
+        }
+
+        .boton-relleno:hover {
+            background-color: #dff3e7;
         }
 
         nav {
             position: sticky;
             top: 0;
-            z-index: 10;
-            padding: 15px;
+            z-index: 1000;
+            padding: 12px 16px;
             text-align: center;
-            background-color: #102e23;
+            background-color: rgba(13, 47, 35, 0.97);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.18);
+            backdrop-filter: blur(8px);
         }
 
         nav a {
             display: inline-block;
-            margin: 5px 14px;
-            color: white;
+            margin: 5px 11px;
+            color: var(--blanco);
             text-decoration: none;
+            font-size: 0.95rem;
             font-weight: bold;
+            transition: color 0.2s;
+        }
+
+        nav a:hover {
+            color: #a9e3c1;
         }
 
         main {
-            width: min(1100px, 92%);
+            width: min(1180px, 92%);
             margin: auto;
         }
 
         section {
-            padding: 70px 0;
+            padding: 82px 0;
         }
 
         section h2 {
-            margin-bottom: 25px;
-            color: #145c3e;
-            font-size: 2rem;
+            margin-bottom: 14px;
+            color: var(--verde-principal);
+            font-size: clamp(1.8rem, 4vw, 2.45rem);
+            line-height: 1.2;
             text-align: center;
         }
 
+        .subtitulo-seccion {
+            width: 70px;
+            height: 4px;
+            margin: 0 auto 26px;
+            border-radius: 999px;
+            background-color: var(--verde-secundario);
+        }
+
         .descripcion {
-            max-width: 800px;
-            margin: auto;
+            max-width: 880px;
+            margin: 0 auto;
+            color: var(--texto-suave);
+            font-size: 1.06rem;
             text-align: center;
-            font-size: 1.08rem;
+        }
+
+        .bloque-sobre-mi {
+            max-width: 940px;
+            margin: 34px auto 0;
+            padding: 34px;
+            border: 1px solid rgba(23, 107, 72, 0.08);
+            border-radius: 16px;
+            background-color: var(--blanco);
+            box-shadow: var(--sombra);
+        }
+
+        .bloque-sobre-mi p {
+            color: var(--texto-suave);
+            font-size: 1.05rem;
+            text-align: center;
+        }
+
+        .chips {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        .chip {
+            padding: 8px 14px;
+            border: 1px solid rgba(23, 107, 72, 0.1);
+            border-radius: 999px;
+            color: #145c3e;
+            background-color: var(--verde-claro);
+            font-size: 0.92rem;
+            font-weight: bold;
         }
 
         .tarjetas {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-            gap: 22px;
-            margin-top: 35px;
+            grid-template-columns:
+                repeat(auto-fit, minmax(250px, 1fr));
+            gap: 24px;
+            margin-top: 38px;
         }
 
         .tarjeta {
-            padding: 28px;
-            border-radius: 12px;
-            background-color: white;
-            box-shadow: 0 6px 18px rgba(31, 74, 54, 0.12);
+            position: relative;
+            padding: 30px;
+            overflow: hidden;
+            border: 1px solid rgba(23, 107, 72, 0.08);
+            border-radius: 16px;
+            background-color: var(--blanco);
+            box-shadow: var(--sombra);
+            transition:
+                transform 0.25s,
+                box-shadow 0.25s;
+        }
+
+        .tarjeta::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background:
+                linear-gradient(
+                    90deg,
+                    var(--verde-principal),
+                    #55ad7e
+                );
+        }
+
+        .tarjeta:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 13px 30px rgba(24, 73, 51, 0.17);
+        }
+
+        .numero {
+            display: inline-flex;
+            width: 38px;
+            height: 38px;
+            margin-bottom: 18px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            color: var(--blanco);
+            background-color: var(--verde-principal);
+            font-weight: bold;
         }
 
         .tarjeta h3 {
             margin-bottom: 12px;
-            color: #176b48;
+            color: var(--verde-principal);
+            font-size: 1.25rem;
+            line-height: 1.3;
         }
 
-        .contacto {
-            padding: 40px;
-            border-radius: 14px;
-            text-align: center;
-            background-color: white;
-            box-shadow: 0 6px 18px rgba(31, 74, 54, 0.12);
+        .tarjeta p {
+            color: var(--texto-suave);
         }
 
-        footer {
-            padding: 25px;
-            color: white;
-            text-align: center;
+        .proyectos {
+            grid-template-columns:
+                repeat(auto-fit, minmax(260px, 1fr));
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns:
+                repeat(2, minmax(0, 1fr));
+            gap: 24px;
+            margin-top: 38px;
+        }
+
+        .modelo {
+            overflow: hidden;
+            border: 1px solid rgba(23, 107, 72, 0.08);
+            border-radius: 16px;
+            background-color: var(--blanco);
+            box-shadow: var(--sombra);
+            transition:
+                transform 0.25s,
+                box-shadow 0.25s;
+        }
+
+        .modelo:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 13px 30px rgba(24, 73, 51, 0.17);
+        }
+
+        .modelo > img {
+            width: 100%;
+            height: 320px;
+            display: block;
+            object-fit: contain;
+            background:
+                radial-gradient(
+                    circle,
+                    #203c31,
+                    #0d211a
+                );
+        }
+
+        .modelo .contenido {
+            padding: 24px;
+        }
+
+        .modelo h3 {
+            margin-bottom: 10px;
+            color: var(--verde-principal);
+            font-size: 1.25rem;
+        }
+
+        .modelo p {
+            color: var(--texto-suave);
+        }
+
+        .modelo-doble {
+            grid-column: span 2;
+        }
+
+        .imagenes-3dgs {
+            display: grid;
+            grid-template-columns:
+                repeat(2, minmax(0, 1fr));
+            gap: 5px;
+            padding: 5px;
+            background-color: var(--verde-oscuro);
+        }
+
+        .imagenes-3dgs figure {
+            min-width: 0;
+            margin: 0;
             background-color: #102e23;
         }
 
-        @media (max-width: 600px) {
+        .imagenes-3dgs img {
+            width: 100%;
+            height: 370px;
+            display: block;
+            object-fit: contain;
+            background:
+                radial-gradient(
+                    circle,
+                    #213d32,
+                    #0b1c16
+                );
+        }
+
+        .imagenes-3dgs figcaption {
+            padding: 11px;
+            color: var(--blanco);
+            text-align: center;
+            font-size: 0.9rem;
+            font-weight: bold;
+            background-color: var(--verde-oscuro);
+        }
+
+        .nota-galeria {
+            max-width: 820px;
+            margin: 30px auto 0;
+            padding: 18px 22px;
+            border-left: 4px solid var(--verde-principal);
+            border-radius: 0 10px 10px 0;
+            color: var(--texto-suave);
+            background-color: var(--verde-claro);
+        }
+
+        .contacto {
+            max-width: 850px;
+            margin: 34px auto 0;
+            padding: 38px;
+            border: 1px solid rgba(23, 107, 72, 0.08);
+            border-radius: 16px;
+            text-align: center;
+            background-color: var(--blanco);
+            box-shadow: var(--sombra);
+        }
+
+        .contacto p {
+            margin-bottom: 15px;
+            color: var(--texto-suave);
+        }
+
+        .enlaces-contacto {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 22px;
+        }
+
+        .enlace-contacto {
+            display: inline-block;
+            padding: 11px 18px;
+            border-radius: 8px;
+            color: var(--blanco);
+            background-color: var(--verde-principal);
+            text-decoration: none;
+            font-weight: bold;
+            transition:
+                transform 0.2s,
+                background-color 0.2s;
+        }
+
+        .enlace-contacto:hover {
+            background-color: #0f5337;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 28px 20px;
+            color: var(--blanco);
+            text-align: center;
+            background-color: var(--verde-oscuro);
+        }
+
+        footer p {
+            margin: 4px 0;
+        }
+
+        .pie-secundario {
+            color: #b9d7c7;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 900px) {
+            .galeria {
+                grid-template-columns: 1fr;
+            }
+
+            .modelo-doble {
+                grid-column: span 1;
+            }
+
+            .imagenes-3dgs {
+                grid-template-columns: 1fr;
+            }
+
+            .imagenes-3dgs img {
+                height: 330px;
+            }
+        }
+
+        @media (max-width: 650px) {
+            html {
+                scroll-padding-top: 120px;
+            }
+
+            header {
+                min-height: 92vh;
+                padding: 45px 18px;
+            }
+
+            nav {
+                padding: 9px 7px;
+            }
+
             nav a {
-                margin: 4px 7px;
-                font-size: 0.9rem;
+                margin: 4px 6px;
+                font-size: 0.82rem;
+            }
+
+            section {
+                padding: 60px 0;
+            }
+
+            .bloque-sobre-mi,
+            .contacto {
+                padding: 26px 20px;
+            }
+
+            .tarjeta {
+                padding: 25px;
+            }
+
+            .modelo > img {
+                height: 260px;
+            }
+
+            .imagenes-3dgs img {
+                height: 280px;
+            }
+
+            .botones {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .boton {
+                width: min(280px, 100%);
             }
         }
     </style>
@@ -159,21 +574,52 @@
 
     <header id="inicio">
         <div class="presentacion">
-            <h1>Bastián Rivas</h1>
+
+            <span class="etiqueta-principal">
+                Portafolio personal y académico
+            </span>
+
+            <h1>
+                Bastian Alejandro Rivas Maldonado
+            </h1>
 
             <h2>
-                Reconstrucción 3D, fenotipado digital
-                y sensores remotos
+                Modelación hidrológica, fenotipado digital,
+                sensores remotos y reconstrucción 3D
             </h2>
 
             <p>
-                Sitio personal dedicado a mis proyectos, investigaciones
-                y experiencias relacionadas con plantas, reconstrucción
-                tridimensional, visión computacional, SIG y sensores remotos.
+                Mi trabajo e intereses se enfocan en el uso de tecnologías
+                digitales y herramientas de análisis para estudiar plantas,
+                vegetación, recursos naturales y procesos hidrológicos.
+                Integro modelación, información geoespacial, LiDAR, visión
+                computacional, reconstrucción tridimensional e imágenes
+                espectrales.
             </p>
 
-            <a class="boton" href="#proyectos">Ver proyectos</a>
-            <a class="boton" href="#contacto">Contacto</a>
+            <div class="botones">
+                <a
+                    class="boton boton-relleno"
+                    href="#proyectos"
+                >
+                    Ver proyectos
+                </a>
+
+                <a
+                    class="boton"
+                    href="#galeria"
+                >
+                    Ver reconstrucciones 3D
+                </a>
+
+                <a
+                    class="boton"
+                    href="#contacto"
+                >
+                    Contacto
+                </a>
+            </div>
+
         </div>
     </header>
 
@@ -182,109 +628,415 @@
         <a href="#sobre-mi">Sobre mí</a>
         <a href="#areas">Áreas</a>
         <a href="#proyectos">Proyectos</a>
+        <a href="#galeria">Modelos 3D</a>
         <a href="#contacto">Contacto</a>
     </nav>
 
     <main>
 
         <section id="sobre-mi">
+
             <h2>Sobre mí</h2>
+            <div class="subtitulo-seccion"></div>
 
             <p class="descripcion">
-                Me interesa aplicar tecnologías digitales al estudio de
-                plantas y ecosistemas, especialmente reconstrucción 3D,
-                fenotipado digital, visión computacional, sensores remotos
-                y sistemas de información geográfica.
+                Mi perfil reúne conocimientos forestales, ambientales,
+                hidrológicos y tecnológicos, con especial interés en la
+                integración de datos, imágenes, modelos y herramientas
+                digitales para analizar vegetación y territorio.
             </p>
+
+            <div class="bloque-sobre-mi">
+
+                <p>
+                    He desarrollado experiencia e interés en análisis de datos,
+                    herramientas de oficina, climatología, sistemas de
+                    información geográfica, sensores remotos, silvicultura,
+                    hidrología forestal, modelación, LiDAR, visión computacional
+                    y fenotipado digital de plantas.
+                </p>
+
+                <div class="chips">
+
+                    <span class="chip">Excel</span>
+                    <span class="chip">Office</span>
+                    <span class="chip">Climatología</span>
+                    <span class="chip">SIG</span>
+                    <span class="chip">Sensores remotos</span>
+                    <span class="chip">Patología forestal</span>
+                    <span class="chip">Power BI</span>
+                    <span class="chip">Ecofisiología vegetal</span>
+                    <span class="chip">AppSheet</span>
+                    <span class="chip">Cuencas hidrográficas</span>
+                    <span class="chip">Viveros forestales</span>
+                    <span class="chip">Hidrología forestal</span>
+                    <span class="chip">Caminos forestales</span>
+                    <span class="chip">Silvicultura</span>
+                    <span class="chip">Modelos hidrológicos</span>
+                    <span class="chip">Incendios forestales</span>
+                    <span class="chip">Manejo del fuego</span>
+                    <span class="chip">LiDAR</span>
+                    <span class="chip">Visión computacional</span>
+                    <span class="chip">Fenotipado digital</span>
+                    <span class="chip">Reconstrucción 3D</span>
+                    <span class="chip">Imágenes 2D</span>
+                    <span class="chip">Hiperespectral</span>
+                    <span class="chip">Multiespectral</span>
+
+                </div>
+            </div>
+
         </section>
 
         <section id="areas">
+
             <h2>Áreas de interés</h2>
+            <div class="subtitulo-seccion"></div>
+
+            <p class="descripcion">
+                Mis principales líneas de interés se concentran en tres áreas
+                que integran conocimientos forestales, ambientales y
+                tecnológicos.
+            </p>
 
             <div class="tarjetas">
 
                 <article class="tarjeta">
-                    <h3>Reconstrucción 3D</h3>
+                    <span class="numero">1</span>
+
+                    <h3>Modelos hidrológicos</h3>
+
                     <p>
-                        Generación de nubes de puntos y modelos mediante
-                        SfM, MVS y Gaussian Splatting.
+                        Aplicación de herramientas de modelación para analizar
+                        procesos hidrológicos, comportamiento de cuencas,
+                        disponibilidad de agua, respuesta frente a cambios
+                        ambientales y gestión del recurso hídrico.
                     </p>
                 </article>
 
                 <article class="tarjeta">
-                    <h3>Fenotipado digital</h3>
+                    <span class="numero">2</span>
+
+                    <h3>Fenotipado digital de plantas</h3>
+
                     <p>
-                        Medición de características estructurales y
-                        morfológicas de plantas mediante imágenes.
+                        Obtención y análisis de características morfológicas,
+                        estructurales y espectrales de plantas mediante visión
+                        computacional, imágenes 2D, reconstrucción 3D,
+                        información hiperespectral, multiespectral y sensores.
                     </p>
                 </article>
 
                 <article class="tarjeta">
+                    <span class="numero">3</span>
+
                     <h3>Sensores remotos</h3>
-                    <p>
-                        Uso de imágenes multiespectrales, hiperespectrales
-                        y tecnología LiDAR.
-                    </p>
-                </article>
 
-                <article class="tarjeta">
-                    <h3>SIG</h3>
                     <p>
-                        Análisis espacial aplicado a recursos naturales,
-                        hidrología y cuencas hidrográficas.
+                        Uso de imágenes satelitales, datos LiDAR y sensores
+                        multiespectrales e hiperespectrales para caracterizar
+                        vegetación, analizar el territorio y obtener variables
+                        biofísicas y ambientales.
                     </p>
                 </article>
 
             </div>
+
         </section>
 
         <section id="proyectos">
+
             <h2>Proyectos</h2>
+            <div class="subtitulo-seccion"></div>
 
-            <div class="tarjetas">
+            <p class="descripcion">
+                Estos proyectos representan las principales líneas de trabajo
+                e investigación que desarrollo o deseo profundizar.
+            </p>
+
+            <div class="tarjetas proyectos">
 
                 <article class="tarjeta">
-                    <h3>Reconstrucción 3D de plántulas</h3>
+                    <span class="numero">1</span>
+
+                    <h3>Modelación hidrológica</h3>
+
                     <p>
-                        Comparación de SfM, MVS y 3D Gaussian Splatting
-                        para reconstruir plántulas de eucalipto.
+                        Evaluación de procesos hidrológicos y respuesta de
+                        cuencas mediante herramientas de modelación, análisis
+                        de datos climáticos, información espacial y variables
+                        del territorio.
                     </p>
                 </article>
 
                 <article class="tarjeta">
-                    <h3>Fenotipado vegetal</h3>
+                    <span class="numero">2</span>
+
+                    <h3>Reconstrucción 3D</h3>
+
                     <p>
-                        Investigación de métodos digitales para obtener
-                        información estructural y espectral de plantas.
+                        Comparación y aplicación de métodos como Structure
+                        from Motion, Multi-View Stereo y 3D Gaussian Splatting
+                        para reconstruir plantas a partir de fotografías,
+                        generar nubes de puntos y producir representaciones
+                        tridimensionales.
                     </p>
                 </article>
 
                 <article class="tarjeta">
-                    <h3>Revisión sistemática</h3>
+                    <span class="numero">3</span>
+
+                    <h3>Fenotipado digital</h3>
+
                     <p>
-                        Estudio de aplicaciones de reconstrucción 3D e
-                        imágenes hiperespectrales en plantas.
+                        Desarrollo de métodos digitales para medir y
+                        caracterizar plantas mediante imágenes, modelos 3D,
+                        visión computacional e información hiperespectral y
+                        multiespectral.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <span class="numero">4</span>
+
+                    <h3>
+                        Estimación de variables de interés en redes eléctricas
+                    </h3>
+
+                    <p>
+                        Análisis de la presencia de vegetación dentro del
+                        buffer correspondiente a la franja de seguridad de
+                        redes eléctricas. Mediante datos LiDAR se busca
+                        determinar altura, cobertura y cercanía de la
+                        vegetación respecto de la infraestructura eléctrica.
                     </p>
                 </article>
 
             </div>
+
+        </section>
+
+        <section id="galeria">
+
+            <h2>Modelos 3D reconstruidos</h2>
+            <div class="subtitulo-seccion"></div>
+
+            <p class="descripcion">
+                Ejemplos de reconstrucción tridimensional obtenidos mediante
+                Structure from Motion, Multi-View Stereo y 3D Gaussian
+                Splatting. La galería permite comparar nubes de puntos,
+                reconstrucciones densas y representaciones hiperrealistas.
+            </p>
+
+            <div class="galeria">
+
+                <article class="modelo">
+
+                    <img
+                        src="gifs/sfm.gif"
+                        alt="Nube de puntos reconstruida mediante Structure from Motion"
+                        loading="lazy"
+                    >
+
+                    <div class="contenido">
+
+                        <h3>Nube de puntos SfM</h3>
+
+                        <p>
+                            Reconstrucción inicial obtenida mediante Structure
+                            from Motion. Este procedimiento estima la posición
+                            de las cámaras y la estructura tridimensional de
+                            la planta a partir de fotografías superpuestas.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="modelo">
+
+                    <img
+                        src="gifs/mvs.gif"
+                        alt="Nube de puntos densa reconstruida mediante Multi-View Stereo"
+                        loading="lazy"
+                    >
+
+                    <div class="contenido">
+
+                        <h3>Nube de puntos MVS</h3>
+
+                        <p>
+                            Reconstrucción densa generada mediante Multi-View
+                            Stereo. Este proceso aumenta la cantidad de puntos
+                            y permite representar con mayor detalle la
+                            geometría tridimensional de la planta.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="modelo modelo-doble">
+
+                    <div class="imagenes-3dgs">
+
+                        <figure>
+
+                            <img
+                                src="gifs/3dgs.gif"
+                                alt="Primera representación hiperrealista mediante 3D Gaussian Splatting"
+                                loading="lazy"
+                            >
+
+                            <figcaption>
+                                Reconstrucción hiperrealista 3DGS
+                            </figcaption>
+
+                        </figure>
+
+                        <figure>
+
+                            <img
+                                src="gifs/3dgsae.gif"
+                                alt="Segunda representación hiperrealista mediante 3D Gaussian Splatting"
+                                loading="lazy"
+                            >
+
+                            <figcaption>
+                                Reconstrucción hiperrealista 3DGS AE
+                            </figcaption>
+
+                        </figure>
+
+                    </div>
+
+                    <div class="contenido">
+
+                        <h3>
+                            Representaciones hiperrealistas mediante 3DGS
+                        </h3>
+
+                        <p>
+                            Estas reconstrucciones fueron obtenidas mediante
+                            3D Gaussian Splatting. La metodología representa
+                            la escena mediante gaussianas tridimensionales y
+                            permite generar visualizaciones continuas,
+                            detalladas y de apariencia hiperrealista desde
+                            distintos puntos de vista.
+                        </p>
+
+                    </div>
+
+                </article>
+
+                <article class="modelo modelo-doble">
+
+                    <img
+                        src="gifs/3dgs_nube.gif"
+                        alt="Nube de puntos asociada a una reconstrucción 3D Gaussian Splatting"
+                        loading="lazy"
+                    >
+
+                    <div class="contenido">
+
+                        <h3>Nube de puntos asociada a 3DGS</h3>
+
+                        <p>
+                            Representación puntual asociada al modelo generado
+                            mediante 3D Gaussian Splatting. Esta visualización
+                            permite examinar la distribución espacial de los
+                            elementos que conforman la reconstrucción y
+                            comparar su estructura con las nubes generadas
+                            mediante SfM y MVS.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+            <div class="nota-galeria">
+                Los archivos GIF deben encontrarse dentro de una carpeta
+                llamada <strong>gifs</strong> y conservar exactamente los
+                nombres utilizados en este código.
+            </div>
+
         </section>
 
         <section id="contacto">
+
             <h2>Contacto</h2>
+            <div class="subtitulo-seccion"></div>
+
+            <p class="descripcion">
+                Puedes utilizar esta sección para agregar tus perfiles
+                profesionales, académicos y datos de contacto.
+            </p>
 
             <div class="contacto">
+
                 <p>
-                    Próximamente agregaré aquí mi correo y mis perfiles
-                    académicos.
+                    Actualmente puedes enlazar tu perfil de GitHub y,
+                    posteriormente, agregar correo electrónico, LinkedIn,
+                    ORCID, ResearchGate o publicaciones.
                 </p>
+
+                <div class="enlaces-contacto">
+
+                    <a
+                        class="enlace-contacto"
+                        href="https://github.com/barm2000"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub
+                    </a>
+
+                    <!--
+                    Reemplaza correo@ejemplo.com por tu correo real
+                    y elimina los símbolos de comentario de este enlace.
+
+                    <a
+                        class="enlace-contacto"
+                        href="mailto:correo@ejemplo.com"
+                    >
+                        Correo electrónico
+                    </a>
+                    -->
+
+                    <!--
+                    Cuando tengas LinkedIn, puedes agregarlo así:
+
+                    <a
+                        class="enlace-contacto"
+                        href="TU-ENLACE-DE-LINKEDIN"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn
+                    </a>
+                    -->
+
+                </div>
+
             </div>
+
         </section>
 
     </main>
 
     <footer>
-        <p>© 2026 Bastián Rivas</p>
+
+        <p>
+            © 2026 Bastian Alejandro Rivas Maldonado
+        </p>
+
+        <p class="pie-secundario">
+            Modelación hidrológica · Fenotipado digital ·
+            Sensores remotos · Reconstrucción 3D
+        </p>
+
     </footer>
 
 </body>

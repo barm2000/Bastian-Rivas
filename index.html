@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bastián Rivas | Página personal</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #263238;
+            background-color: #f4f7f5;
+        }
+
+        header {
+            min-height: 90vh;
+            padding: 40px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            background: linear-gradient(135deg, #123f2d, #2d8058);
+        }
+
+        .presentacion {
+            max-width: 850px;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+            font-size: clamp(2.8rem, 8vw, 5rem);
+        }
+
+        header h2 {
+            margin-bottom: 25px;
+            font-size: clamp(1.1rem, 3vw, 1.7rem);
+            font-weight: normal;
+        }
+
+        header p {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            font-size: 1.1rem;
+        }
+
+        .boton {
+            display: inline-block;
+            margin: 6px;
+            padding: 13px 24px;
+            border: 2px solid white;
+            border-radius: 8px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .boton:hover {
+            color: #164b36;
+            background-color: white;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            padding: 15px;
+            text-align: center;
+            background-color: #102e23;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 5px 14px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            width: min(1100px, 92%);
+            margin: auto;
+        }
+
+        section {
+            padding: 70px 0;
+        }
+
+        section h2 {
+            margin-bottom: 25px;
+            color: #145c3e;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .descripcion {
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            font-size: 1.08rem;
+        }
+
+        .tarjetas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 22px;
+            margin-top: 35px;
+        }
+
+        .tarjeta {
+            padding: 28px;
+            border-radius: 12px;
+            background-color: white;
+            box-shadow: 0 6px 18px rgba(31, 74, 54, 0.12);
+        }
+
+        .tarjeta h3 {
+            margin-bottom: 12px;
+            color: #176b48;
+        }
+
+        .contacto {
+            padding: 40px;
+            border-radius: 14px;
+            text-align: center;
+            background-color: white;
+            box-shadow: 0 6px 18px rgba(31, 74, 54, 0.12);
+        }
+
+        footer {
+            padding: 25px;
+            color: white;
+            text-align: center;
+            background-color: #102e23;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                margin: 4px 7px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header id="inicio">
+        <div class="presentacion">
+            <h1>Bastián Rivas</h1>
+
+            <h2>
+                Reconstrucción 3D, fenotipado digital
+                y sensores remotos
+            </h2>
+
+            <p>
+                Sitio personal dedicado a mis proyectos, investigaciones
+                y experiencias relacionadas con plantas, reconstrucción
+                tridimensional, visión computacional, SIG y sensores remotos.
+            </p>
+
+            <a class="boton" href="#proyectos">Ver proyectos</a>
+            <a class="boton" href="#contacto">Contacto</a>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#areas">Áreas</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+
+            <p class="descripcion">
+                Me interesa aplicar tecnologías digitales al estudio de
+                plantas y ecosistemas, especialmente reconstrucción 3D,
+                fenotipado digital, visión computacional, sensores remotos
+                y sistemas de información geográfica.
+            </p>
+        </section>
+
+        <section id="areas">
+            <h2>Áreas de interés</h2>
+
+            <div class="tarjetas">
+
+                <article class="tarjeta">
+                    <h3>Reconstrucción 3D</h3>
+                    <p>
+                        Generación de nubes de puntos y modelos mediante
+                        SfM, MVS y Gaussian Splatting.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Fenotipado digital</h3>
+                    <p>
+                        Medición de características estructurales y
+                        morfológicas de plantas mediante imágenes.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Sensores remotos</h3>
+                    <p>
+                        Uso de imágenes multiespectrales, hiperespectrales
+                        y tecnología LiDAR.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>SIG</h3>
+                    <p>
+                        Análisis espacial aplicado a recursos naturales,
+                        hidrología y cuencas hidrográficas.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos</h2>
+
+            <div class="tarjetas">
+
+                <article class="tarjeta">
+                    <h3>Reconstrucción 3D de plántulas</h3>
+                    <p>
+                        Comparación de SfM, MVS y 3D Gaussian Splatting
+                        para reconstruir plántulas de eucalipto.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Fenotipado vegetal</h3>
+                    <p>
+                        Investigación de métodos digitales para obtener
+                        información estructural y espectral de plantas.
+                    </p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Revisión sistemática</h3>
+                    <p>
+                        Estudio de aplicaciones de reconstrucción 3D e
+                        imágenes hiperespectrales en plantas.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            <div class="contacto">
+                <p>
+                    Próximamente agregaré aquí mi correo y mis perfiles
+                    académicos.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Bastián Rivas</p>
+    </footer>
+
+</body>
+</html>

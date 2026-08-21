@@ -1573,6 +1573,85 @@
 
 
         /* =========================================================
+           MULTIMEDIA EN PROYECTOS
+        ========================================================= */
+
+        .proyecto-media {
+
+            width: 100%;
+
+            margin:
+                18px 0 22px;
+
+            overflow: hidden;
+
+            border-radius: 14px;
+
+            background: var(--verde-oscuro);
+
+            box-shadow:
+                0 7px 20px rgba(24, 73, 51, 0.12);
+        }
+
+
+        .proyecto-media img,
+        .proyecto-media video {
+
+            display: block;
+
+            width: 100%;
+
+            height: 310px;
+
+            object-fit: contain;
+
+            background: var(--verde-oscuro);
+        }
+
+
+        .proyecto-media img {
+
+            pointer-events: none;
+
+            user-select: none;
+        }
+
+
+        /* Imagen LiDAR original girada 90 grados */
+
+        .proyecto-media-vertical {
+
+            height: 410px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+        }
+
+
+        .proyecto-media-vertical img {
+
+            width: 410px;
+
+            height: auto;
+
+            max-width: none;
+
+            transform: rotate(90deg);
+        }
+
+
+        /* Video HSI */
+
+        .proyecto-media video {
+
+            pointer-events: none;
+        }
+
+
+        /* =========================================================
            RESPONSIVE
         ========================================================= */
 
@@ -1688,6 +1767,22 @@
                     280px;
             }
 
+            .proyecto-media img,
+            .proyecto-media video {
+
+                height: 240px;
+            }
+
+            .proyecto-media-vertical {
+
+                height: 330px;
+            }
+
+            .proyecto-media-vertical img {
+
+                width: 330px;
+            }
+
             .botones {
 
                 flex-direction:
@@ -1732,8 +1827,7 @@
 
         <p class="hero-subtitulo">
 
-            Ingeniero Forestal · Modelación computacional ·
-            Teledetección · Inteligencia artificial
+            Ingeniero Forestal · Estudiante de Magíster en Ciencias Forestales
 
         </p>
 
@@ -2747,17 +2841,35 @@
                 Análisis de vegetación mediante LiDAR
             </h3>
 
+            <div class="proyecto-media proyecto-media-vertical">
+
+                <img
+                    src="gifs/lineas.png"
+                    alt="Caracterización de vegetación cercana a redes eléctricas mediante LiDAR"
+                    loading="lazy"
+                    draggable="false"
+                >
+
+            </div>
+
             <p>
 
-                Procesamiento de datos LiDAR para analizar la presencia,
-                altura, cobertura y proximidad de vegetación respecto de
-                infraestructura eléctrica.
+                Procesamiento y análisis de datos LiDAR para caracterizar la
+                vegetación presente en torno a redes eléctricas y transformar la
+                información tridimensional en variables de interés para la gestión
+                de infraestructura.
+
+                A partir de las nubes de puntos es posible estimar altura de la
+                vegetación, densidad de ocupación, cantidad aproximada de árboles,
+                proximidad a las líneas eléctricas, sectores prioritarios y
+                potenciales plazos de intervención.
 
             </p>
 
             <p class="tecnologias-mini">
 
-                LiDAR · Nubes de puntos · CHM · Análisis espacial
+                LiDAR · Nubes de puntos · CHM · Gestión de vegetación ·
+                Análisis espacial
 
             </p>
 
@@ -2836,6 +2948,29 @@
             <h3>
                 Detección de estrés y condición vegetal
             </h3>
+
+            <div class="proyecto-media">
+
+                <video
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    preload="metadata"
+                    disablepictureinpicture
+                    controlslist="nodownload noplaybackrate noremoteplayback"
+                    oncontextmenu="return false;"
+                >
+                    <source
+                        src="gifs/hsi.mp4"
+                        type="video/mp4"
+                    >
+
+                    Tu navegador no soporta reproducción de video.
+
+                </video>
+
+            </div>
 
             <p>
 

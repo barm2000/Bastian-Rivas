@@ -1,0 +1,10 @@
+Title: Estudio de interacción de vegetación con la red eléctrica modelo del área típica ATD12 definida por la autoridad. Buffer 10m.
+Type: Proyecto
+Role: Colaborador
+Year: 2024
+Date: 2024-09
+Authors: Luis García S. · David González L. · Bastián Rivas M.
+Source: iit UdeC, OT 2024-345-1
+Link: 
+LinkText:
+Order: 

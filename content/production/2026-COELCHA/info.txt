@@ -1,0 +1,10 @@
+Title: ESTIMACIÓN DE VARIABLES DE INTERÉS EN REDES ELÉCTRICAS Prueba piloto al sector de ARRANQUE CANCHA MONTERO-DADI-SAN ALBERTOEL CAIPO
+Type: Proyecto
+Role: Colaborador
+Year: 2026
+Date: 2026-05
+Authors: Luis García S. · David González L. · Bastián Rivas M.
+Source: IIT UdeC, OT OT-2025-245-11
+Link: 
+LinkText:
+Order: 

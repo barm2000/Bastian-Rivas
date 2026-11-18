@@ -1,0 +1,10 @@
+Title: EsEstudio de interacción de vegetación con la red eléctrica modelo del área típica de distribución definida por la autoridad, para empresa CRELL
+Type: Proyecto
+Role: Colaborador
+Year: 2024
+Date: 2024-10
+Authors: Luis García S. · David González L. · Bastián Rivas M.
+Source: iit UdeC, OT 2024-359-1 
+Link: 
+LinkText:
+Order: 

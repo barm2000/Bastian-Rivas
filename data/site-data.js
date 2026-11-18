@@ -272,9 +272,19 @@ window.PORTFOLIO_DATA = {
       "linkText": "Visitar Portafolio",
       "order": 1,
       "placeholder": "Port",
-      "cover": null,
+      "cover": {
+        "src": "content/projects/00-Portafolio/BARM.png",
+        "type": "image",
+        "name": "BARM.png"
+      },
       "folder": "00-Portafolio",
-      "media": []
+      "media": [
+        {
+          "src": "content/projects/00-Portafolio/BARM.png",
+          "type": "image",
+          "name": "BARM.png"
+        }
+      ]
     },
     {
       "title": "HydroGeoAI Lab",

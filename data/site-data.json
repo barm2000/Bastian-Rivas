@@ -318,9 +318,29 @@
       "linkText": "Ver publicación asociada",
       "order": 3,
       "placeholder": "GRxJ Calibrator Studio",
-      "cover": null,
+      "cover": {
+        "src": "content/projects/03-GRxJ%20Calibrator%20Studio/media/01_logo.png",
+        "type": "image",
+        "name": "01_logo.png"
+      },
       "folder": "03-GRxJ Calibrator Studio",
-      "media": []
+      "media": [
+        {
+          "src": "content/projects/03-GRxJ%20Calibrator%20Studio/media/01_logo.png",
+          "type": "image",
+          "name": "01_logo.png"
+        },
+        {
+          "src": "content/projects/03-GRxJ%20Calibrator%20Studio/media/02_resultados.png",
+          "type": "image",
+          "name": "02_resultados.png"
+        },
+        {
+          "src": "content/projects/03-GRxJ%20Calibrator%20Studio/media/03_analisis.png",
+          "type": "image",
+          "name": "03_analisis.png"
+        }
+      ]
     },
     {
       "title": "Hyperion Explorer",

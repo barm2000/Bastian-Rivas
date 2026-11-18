@@ -408,9 +408,34 @@ window.PORTFOLIO_DATA = {
       "technologies": "RGB · Multiespectral · Hiperespectral · Clasificaciones",
       "order": 6,
       "placeholder": "RCS",
-      "cover": null,
+      "cover": {
+        "src": "content/projects/06-RasterClass%20Studio/media/01_rasterclass_logo.png",
+        "type": "image",
+        "name": "01_rasterclass_logo.png"
+      },
       "folder": "06-RasterClass Studio",
-      "media": []
+      "media": [
+        {
+          "src": "content/projects/06-RasterClass%20Studio/media/01_rasterclass_logo.png",
+          "type": "image",
+          "name": "01_rasterclass_logo.png"
+        },
+        {
+          "src": "content/projects/06-RasterClass%20Studio/media/02_firmas.png",
+          "type": "image",
+          "name": "02_firmas.png"
+        },
+        {
+          "src": "content/projects/06-RasterClass%20Studio/media/03_res.png",
+          "type": "image",
+          "name": "03_res.png"
+        },
+        {
+          "src": "content/projects/06-RasterClass%20Studio/media/04_2.png",
+          "type": "image",
+          "name": "04_2.png"
+        }
+      ]
     },
     {
       "title": "RiverVision",

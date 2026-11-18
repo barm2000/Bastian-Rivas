@@ -843,42 +843,6 @@ window.PORTFOLIO_DATA = {
       ]
     },
     {
-      "title": "Teledetección y análisis geoespacial",
-      "status": "Próximamente",
-      "summary": "Cursos orientados al procesamiento, interpretación y análisis de información espacial aplicada a recursos naturales y ambiente.",
-      "platforms": "Udemy · Hotmart",
-      "participants": 10,
-      "order": 1,
-      "placeholder": "GEO",
-      "folder": "01-teledeteccion-geoespacial",
-      "media": [],
-      "cover": null
-    },
-    {
-      "title": "Programación aplicada a datos ambientales",
-      "status": "Próximamente",
-      "summary": "Formación práctica para automatizar análisis y trabajar con datos ambientales mediante herramientas computacionales.",
-      "platforms": "Udemy · Hotmart",
-      "participants": 10,
-      "order": 2,
-      "placeholder": "DATA",
-      "folder": "02-programacion-ambiental",
-      "media": [],
-      "cover": null
-    },
-    {
-      "title": "3D, visión computacional y nuevas tecnologías",
-      "status": "Próximamente",
-      "summary": "Contenidos enfocados en reconstrucción 3D, procesamiento de imágenes y metodologías emergentes aplicadas a investigación.",
-      "platforms": "Udemy · Hotmart",
-      "participants": 10,
-      "order": 3,
-      "placeholder": "3D",
-      "folder": "03-3d-vision",
-      "media": [],
-      "cover": null
-    },
-    {
       "title": "Cuantificación individual de plantas con SAM",
       "status": "Próximamente",
       "summary": "Curso aplicado a la detección individual de plantas utilizando SAM.",

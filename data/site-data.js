@@ -826,7 +826,7 @@ window.PORTFOLIO_DATA = {
       "participants": 0,
       "link": "",
       "linkText": "Ver curso",
-      "order": 1,
+      "order": 2,
       "placeholder": "YOLO",
       "cover": {
         "src": "content/courses/02-YOLO/portada.png",

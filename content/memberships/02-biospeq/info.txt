@@ -1,5 +1,5 @@
 Title: BioSpeQ
-Link: https://www.instagram.com/biospequdec/
+Link: https://biospequdec.cl/
 Order: 2
 Short: BQ
 ShowInNavbar: yes

@@ -819,6 +819,30 @@ window.PORTFOLIO_DATA = {
       ]
     },
     {
+      "title": "Detección de defectos en hojas usando YOLO",
+      "status": "Próximamente",
+      "summary": "Curso aplicado a la detección, cuantificación de defectos foliares utilizando los modelos YOLO.",
+      "platforms": "Udemy · Hotmart",
+      "participants": 0,
+      "link": "",
+      "linkText": "Ver curso",
+      "order": 1,
+      "placeholder": "YOLO",
+      "cover": {
+        "src": "content/courses/02-YOLO/portada.png",
+        "type": "image",
+        "name": "portada.png"
+      },
+      "folder": "02-YOLO",
+      "media": [
+        {
+          "src": "content/courses/02-YOLO/portada.png",
+          "type": "image",
+          "name": "portada.png"
+        }
+      ]
+    },
+    {
       "title": "Teledetección y análisis geoespacial",
       "status": "Próximamente",
       "summary": "Cursos orientados al procesamiento, interpretación y análisis de información espacial aplicada a recursos naturales y ambiente.",

@@ -117,7 +117,7 @@ window.PORTFOLIO_DATA = {
     },
     {
       "title": "BioSpeQ",
-      "link": "https://www.instagram.com/biospequdec/",
+      "link": "https://biospequdec.cl/",
       "order": 2,
       "short": "BQ",
       "showInNavbar": true,

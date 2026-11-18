@@ -318,19 +318,9 @@
       "linkText": "Ver publicación asociada",
       "order": 3,
       "placeholder": "GRxJ Calibrator Studio",
-      "cover": {
-        "src": "content/projects/03-GRxJ%20Calibrator%20Studio/logo.png",
-        "type": "image",
-        "name": "logo.png"
-      },
+      "cover": null,
       "folder": "03-GRxJ Calibrator Studio",
-      "media": [
-        {
-          "src": "content/projects/03-GRxJ%20Calibrator%20Studio/logo.png",
-          "type": "image",
-          "name": "logo.png"
-        }
-      ]
+      "media": []
     },
     {
       "title": "Hyperion Explorer",

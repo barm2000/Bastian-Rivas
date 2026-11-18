@@ -287,6 +287,19 @@ window.PORTFOLIO_DATA = {
       ]
     },
     {
+      "title": "Portafolio Personal",
+      "label": "Desarrollo web · Portafolio",
+      "summary": "Diseño y desarrollo de portafolio web personal.",
+      "technologies": "GitHub Pages · HTML · CSS · JavaScript · Automatización",
+      "link": "https://barm2000.github.io/Bastian-Rivas/",
+      "linkText": "Visitar Portafolio",
+      "order": 1,
+      "placeholder": "Port",
+      "cover": null,
+      "folder": "00-Portafolio",
+      "media": []
+    },
+    {
       "title": "Hyperion Explorer",
       "label": "Google Earth Engine · Hiperespectral",
       "summary": "Aplicación desarrollada en Google Earth Engine para explorar y analizar información hiperespectral de EO-1 Hyperion mediante una interfaz web interactiva.",

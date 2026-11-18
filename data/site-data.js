@@ -372,9 +372,34 @@ window.PORTFOLIO_DATA = {
       "technologies": "Sentinel 2 · Superresolución · 2m · 2.5m",
       "order": 5,
       "placeholder": "SR",
-      "cover": null,
+      "cover": {
+        "src": "content/projects/05-SentinelSR%20Suite/media/01_SentinelSR_icon.png",
+        "type": "image",
+        "name": "01_SentinelSR_icon.png"
+      },
       "folder": "05-SentinelSR Suite",
-      "media": []
+      "media": [
+        {
+          "src": "content/projects/05-SentinelSR%20Suite/media/01_SentinelSR_icon.png",
+          "type": "image",
+          "name": "01_SentinelSR_icon.png"
+        },
+        {
+          "src": "content/projects/05-SentinelSR%20Suite/media/02_sr.png",
+          "type": "image",
+          "name": "02_sr.png"
+        },
+        {
+          "src": "content/projects/05-SentinelSR%20Suite/media/03_sr2.jpg",
+          "type": "image",
+          "name": "03_sr2.jpg"
+        },
+        {
+          "src": "content/projects/05-SentinelSR%20Suite/media/04_analisis.png",
+          "type": "image",
+          "name": "04_analisis.png"
+        }
+      ]
     },
     {
       "title": "RasterClass Studio",

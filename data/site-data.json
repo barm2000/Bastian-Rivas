@@ -372,19 +372,9 @@
       "technologies": "Sentinel 2 · Superresolución · 2m · 2.5m",
       "order": 5,
       "placeholder": "SR",
-      "cover": {
-        "src": "content/projects/05-SentinelSR%20Suite/SentinelSR_icon.png",
-        "type": "image",
-        "name": "SentinelSR_icon.png"
-      },
+      "cover": null,
       "folder": "05-SentinelSR Suite",
-      "media": [
-        {
-          "src": "content/projects/05-SentinelSR%20Suite/SentinelSR_icon.png",
-          "type": "image",
-          "name": "SentinelSR_icon.png"
-        }
-      ]
+      "media": []
     },
     {
       "title": "RasterClass Studio",

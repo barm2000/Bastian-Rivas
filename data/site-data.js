@@ -61,9 +61,9 @@ window.PORTFOLIO_DATA = {
       "intro": "Selección de trabajos, desarrollos y líneas que representan mi trayectoria y proyección actual."
     },
     "production": {
-      "kicker": "04 · Publicaciones",
+      "kicker": "04 · Publicaciones y asistencia técnica",
       "title": "Producción científica y colaboraciones.",
-      "intro": "Publicaciones, resultados y colaboraciones en proyectos de investigación y desarrollo."
+      "intro": "Publicaciones, resultados y colaboraciones en proyectos de investigación y desarrollo tecnico."
     },
     "formation": {
       "kicker": "05 · Formación",

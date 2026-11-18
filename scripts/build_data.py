@@ -326,6 +326,14 @@ def render_seo_block(data, site_url):
             structured, ensure_ascii=False, separators=(",", ":")
         ).replace("</", "<\\/")
         lines.append(f'<script type="application/ld+json">{structured_text}</script>')
+    if site_url:
+        icon_base = site_url.rstrip("/") + "/"
+        lines.extend([
+            f'<link rel="icon" href="{html_escape(icon_base + "favicon.ico?v=20261118", quote=True)}" sizes="any">',
+            f'<link rel="icon" type="image/png" sizes="512x512" href="{html_escape(icon_base + "favicon.png?v=20261118", quote=True)}">',
+            f'<link rel="shortcut icon" type="image/x-icon" href="{html_escape(icon_base + "favicon.ico?v=20261118", quote=True)}">',
+            f'<link rel="apple-touch-icon" sizes="180x180" href="{html_escape(icon_base + "apple-touch-icon.png?v=20261118", quote=True)}">',
+        ])
     lines.append("<!-- SEO:AUTO:END -->")
     return "\n".join(lines)
 

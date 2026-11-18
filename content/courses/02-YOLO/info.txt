@@ -1,0 +1,11 @@
+Title: Detección de defectos en hojas usando YOLO
+Status: Próximamente
+Summary: Curso aplicado a la detección, cuantificación de defectos foliares utilizando los modelos YOLO.
+Platforms: Udemy · Hotmart
+Participants: 0
+Link: 
+LinkText: Ver curso
+Order: 1
+Placeholder: YOLO
+Cover: portada.png
+# Puedes agregar JPG, JPEG, PNG, WEBP, GIF, MP4 o WEBM en esta misma carpeta.

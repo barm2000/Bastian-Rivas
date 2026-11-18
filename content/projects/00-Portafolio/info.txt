@@ -6,4 +6,4 @@ Link: https://barm2000.github.io/Bastian-Rivas/
 LinkText: Visitar Portafolio
 Order: 1
 Placeholder: Port
-Cover: logo.jpeg
+Cover: BARM.png

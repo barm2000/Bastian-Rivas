@@ -1,0 +1,11 @@
+Title: Detección de defectos en hojas usando Pliman
+Status: Próximamente
+Summary: Curso aplicado a la detección, cuantificación de defectos foliares utilizando el paquete Pliman en interfaz de RStudio.
+Platforms: Udemy · Hotmart
+Participants: 0
+Link: 
+LinkText: Ver curso
+Order: 1
+Placeholder: PLIMNAN
+Cover: portada.png
+# Puedes agregar JPG, JPEG, PNG, WEBP, GIF, MP4 o WEBM en esta misma carpeta.

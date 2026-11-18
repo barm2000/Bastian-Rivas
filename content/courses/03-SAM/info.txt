@@ -1,0 +1,11 @@
+Title: Cuantificación individual de plantas con SAM
+Status: Próximamente
+Summary: Curso aplicado a la detección individual de plantas utilizando SAM.
+Platforms: Udemy · Hotmart
+Participants: 0
+Link: 
+LinkText: Ver curso
+Order: 3
+Placeholder: SAM
+Cover: portada.png
+# Puedes agregar JPG, JPEG, PNG, WEBP, GIF, MP4 o WEBM en esta misma carpeta.

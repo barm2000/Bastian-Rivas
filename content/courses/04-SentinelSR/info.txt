@@ -1,0 +1,11 @@
+Title: Capacitación SentinelSR Suite
+Status: Próximamente
+Summary: Capacitación de modelos de superresolución.
+Platforms: Udemy · Hotmart
+Participants: 0
+Link: 
+LinkText: Ver curso
+Order: 4
+Placeholder: SR
+Cover: portada.png
+# Puedes agregar JPG, JPEG, PNG, WEBP, GIF, MP4 o WEBM en esta misma carpeta.

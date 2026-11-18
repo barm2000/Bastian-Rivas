@@ -10,3 +10,7 @@ Placeholder: PRJ
 # Cover: portada.jpg
 # Puedes agregar JPG, JPEG, PNG, WEBP, GIF, MP4 o WEBM en esta misma carpeta.
 # Si Cover queda vacío, se usa el primer archivo multimedia encontrado.
+
+# Opcional: si existe links.txt, aparece un bloque automático de recursos asociados.
+RelatedTitle: Difusión y vinculación
+RelatedFile: links.txt

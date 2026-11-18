@@ -284,7 +284,8 @@
           "type": "image",
           "name": "BARM.png"
         }
-      ]
+      ],
+      "relatedLinks": []
     },
     {
       "title": "HydroGeoAI Lab",
@@ -307,7 +308,8 @@
           "type": "image",
           "name": "logo.jpeg"
         }
-      ]
+      ],
+      "relatedLinks": []
     },
     {
       "title": "GRxJ Calibrator Studio",
@@ -340,7 +342,8 @@
           "type": "image",
           "name": "03_analisis.png"
         }
-      ]
+      ],
+      "relatedLinks": []
     },
     {
       "title": "Hyperion Explorer",
@@ -378,7 +381,8 @@
           "type": "image",
           "name": "04_gif.png"
         }
-      ]
+      ],
+      "relatedLinks": []
     },
     {
       "title": "SentinelSR Suite",
@@ -414,7 +418,8 @@
           "type": "image",
           "name": "04_analisis.png"
         }
-      ]
+      ],
+      "relatedLinks": []
     },
     {
       "title": "RasterClass Studio",
@@ -450,7 +455,8 @@
           "type": "image",
           "name": "04_2.png"
         }
-      ]
+      ],
+      "relatedLinks": []
     },
     {
       "title": "RiverVision",
@@ -471,7 +477,8 @@
           "type": "image",
           "name": "RiverVision_icono.png"
         }
-      ]
+      ],
+      "relatedLinks": []
     },
     {
       "title": "Análisis de vegetación mediante LiDAR",
@@ -497,7 +504,8 @@
           "type": "image",
           "name": "02_.gif"
         }
-      ]
+      ],
+      "relatedLinks": []
     }
   ],
   "production": [

@@ -505,7 +505,69 @@
           "name": "02_.gif"
         }
       ],
-      "relatedLinks": []
+      "relatedLinks": [
+        {
+          "date": "2026-04",
+          "type": "Opinión",
+          "title": "Revista ACOFORAG · Nº55, p. 21",
+          "url": "https://revista.acoforag.cl/books/Revista-55-abril-2026/#p=21"
+        },
+        {
+          "date": "2026-01-13",
+          "type": "TV",
+          "title": "Canal 9 BIOBIO · Frente Regional",
+          "url": "https://www.canal9.cl/episodios/frente-regional/2026/01/13/equipo-interdisciplinario-udec-busca-evitar-incendios-forestales-con-inedito-proyecto"
+        },
+        {
+          "date": "2026-01-11",
+          "type": "Prensa",
+          "title": "Diario Concepción · Proyecto de prevención de incendios forestales",
+          "url": "https://www.diarioconcepcion.cl/ciudad/2026/01/11/proyecto-de-prevencion-de-incendios-forestales-en-zona-de-tendido-electrico-genera-interes-publico-privado.html"
+        },
+        {
+          "date": "2026-01-11",
+          "type": "Prensa",
+          "title": "Diario La Discusión · p. 20",
+          "url": "https://diariopapel.ladiscusion.cl/papeldigital/2026/enero/11012026/11012026.pdf"
+        },
+        {
+          "date": "2026-01-08",
+          "type": "Opinión",
+          "title": "Diario Concepción · Prevención es conciencia y acción",
+          "url": "https://www.diarioconcepcion.cl/editorial/2026/01/08/prevencion-es-conciencia-y-accion.html"
+        },
+        {
+          "date": "2026-01",
+          "type": "Entrevista",
+          "title": "Canal 9 BIOBIO",
+          "url": "https://www.youtube.com/watch?v=eEq22yh66kA"
+        },
+        {
+          "date": "2026-01",
+          "type": "TV",
+          "title": "TVU",
+          "url": "https://www.youtube.com/watch?v=x6PiRoi19e0"
+        },
+        {
+          "date": "2026-01",
+          "type": "Vinculación",
+          "title": "Reunión con la Seremi de Agricultura, Pamela Gatti",
+          "url": "https://www.instagram.com/p/DTTBfjhDsf2/?igsh=MTk4d3A4dXRueGpsMQ%3D%3D&img_index=1"
+        },
+        {
+          "date": "2026-01",
+          "type": "Prensa",
+          "title": "Noticias UdeC",
+          "url": "https://noticias.udec.cl/investigadores-udec-desarrollan-metodologia-para-prevenir-incendios-forestales-en-zonas-de-tendido-electrico/"
+        },
+        {
+          "date": "2025",
+          "type": "Congreso",
+          "title": "Presentación de resultados · 13° Congreso Internacional Biobío Energía 2025",
+          "url": "https://youtu.be/3n9FlP8bVYU?t=12074"
+        }
+      ],
+      "relatedTitle": "Difusión y vinculación"
     }
   ],
   "production": [

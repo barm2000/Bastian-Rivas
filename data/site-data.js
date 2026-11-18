@@ -262,7 +262,153 @@ window.PORTFOLIO_DATA = {
       "cover": null
     }
   ],
-  "projects": [],
+  "projects": [
+    {
+      "title": "Portafolio Personal",
+      "label": "Desarrollo web · Portafolio",
+      "summary": "Diseño y desarrollo de portafolio web personal.",
+      "technologies": "GitHub Pages · HTML · CSS · JavaScript · Automatización",
+      "link": "https://barm2000.github.io/Bastian-Rivas/",
+      "linkText": "Visitar Portafolio",
+      "order": 1,
+      "placeholder": "Port",
+      "cover": null,
+      "folder": "00-Portafolio",
+      "media": []
+    },
+    {
+      "title": "HydroGeoAI Lab",
+      "label": "Desarrollo web · Ciencia",
+      "summary": "Diseño y desarrollo del sitio web del laboratorio, organizado para comunicar proyectos, equipo, servicios, publicaciones, equipamiento y recursos.",
+      "technologies": "GitHub Pages · HTML · CSS · JavaScript · Automatización",
+      "link": "https://syepez14.github.io/HydroGeoAI-Lab/",
+      "linkText": "Visitar HydroGeoAI Lab",
+      "order": 2,
+      "placeholder": "HLab",
+      "cover": {
+        "src": "content/projects/01-hydrogeoai-lab/logo.jpeg",
+        "type": "image",
+        "name": "logo.jpeg"
+      },
+      "folder": "01-hydrogeoai-lab",
+      "media": [
+        {
+          "src": "content/projects/01-hydrogeoai-lab/logo.jpeg",
+          "type": "image",
+          "name": "logo.jpeg"
+        }
+      ]
+    },
+    {
+      "title": "GRxJ Calibrator Studio",
+      "label": "Hidrología",
+      "summary": "Interfaz de aplicación modelos lluvia - escorrentía con diferentes métodos de optimización, comparativas de desempeño y tiempos computacionales y análisis de sensibilidad local y global.",
+      "technologies": "GRxJ · CemaNeige",
+      "link": "https://doi.org/10.3390/w17233413",
+      "linkText": "Ver publicación asociada",
+      "order": 3,
+      "placeholder": "GRxJ Calibrator Studio",
+      "cover": {
+        "src": "content/projects/03-GRxJ%20Calibrator%20Studio/logo.png",
+        "type": "image",
+        "name": "logo.png"
+      },
+      "folder": "03-GRxJ Calibrator Studio",
+      "media": [
+        {
+          "src": "content/projects/03-GRxJ%20Calibrator%20Studio/logo.png",
+          "type": "image",
+          "name": "logo.png"
+        }
+      ]
+    },
+    {
+      "title": "Hyperion Explorer",
+      "label": "Google Earth Engine · Hiperespectral",
+      "summary": "Aplicación desarrollada en Google Earth Engine para explorar y analizar información hiperespectral de EO-1 Hyperion mediante una interfaz web interactiva.",
+      "technologies": "Google Earth Engine · Hyperion · JavaScript · Visualización",
+      "link": "https://batyrivas2000.users.earthengine.app/view/hyperion-explorer",
+      "linkText": "Abrir Hyperion Explorer",
+      "order": 4,
+      "placeholder": "HE",
+      "cover": {
+        "src": "content/projects/04-hyperion-explorer/normal.png",
+        "type": "image",
+        "name": "normal.png"
+      },
+      "folder": "04-hyperion-explorer",
+      "media": [
+        {
+          "src": "content/projects/04-hyperion-explorer/normal.png",
+          "type": "image",
+          "name": "normal.png"
+        }
+      ]
+    },
+    {
+      "title": "SentinelSR Suite",
+      "label": "Modelos de superresolución",
+      "summary": "Software recopilatorio de modelos de superresolución, descarga, comparaciones y análisis espectral.",
+      "technologies": "Sentinel 2 · Superresolución · 2m · 2.5m",
+      "order": 5,
+      "placeholder": "SR",
+      "cover": {
+        "src": "content/projects/05-SentinelSR%20Suite/SentinelSR_icon.png",
+        "type": "image",
+        "name": "SentinelSR_icon.png"
+      },
+      "folder": "05-SentinelSR Suite",
+      "media": [
+        {
+          "src": "content/projects/05-SentinelSR%20Suite/SentinelSR_icon.png",
+          "type": "image",
+          "name": "SentinelSR_icon.png"
+        }
+      ]
+    },
+    {
+      "title": "RasterClass Studio",
+      "label": "Modelos de clasificación · Indicadores estadisticos",
+      "summary": "Software Image Classification Suite con 20 modelos parametrizables para clasificar mediante rois y validaciones mediante indicadores estadisticos.",
+      "technologies": "RGB · Multiespectral · Hiperespectral · Clasificaciones",
+      "order": 6,
+      "placeholder": "RCS",
+      "cover": {
+        "src": "content/projects/06-RasterClass%20Studio/rasterclass_logo.png",
+        "type": "image",
+        "name": "rasterclass_logo.png"
+      },
+      "folder": "06-RasterClass Studio",
+      "media": [
+        {
+          "src": "content/projects/06-RasterClass%20Studio/rasterclass_logo.png",
+          "type": "image",
+          "name": "rasterclass_logo.png"
+        }
+      ]
+    },
+    {
+      "title": "RiverVision",
+      "label": "Image Velocimetry Suite",
+      "summary": "Velocimetría superficial de ríos mediante visión computacional utilizando capturas de aéreas u desde cámaras estáticas.",
+      "technologies": "PIV · LSPIV · PTV · Vectores de velocidad",
+      "order": 7,
+      "placeholder": "RV",
+      "cover": {
+        "src": "content/projects/07-RiverVision/RiverVision_icono.png",
+        "type": "image",
+        "name": "RiverVision_icono.png"
+      },
+      "folder": "07-RiverVision",
+      "media": [
+        {
+          "src": "content/projects/07-RiverVision/RiverVision_icono.png",
+          "type": "image",
+          "name": "RiverVision_icono.png"
+        }
+      ]
+    }
+  ],
   "production": [
     {
       "title": "Performance Evaluation of the SRM and GRxJ—CemaNeige Models for Daily Streamflow Simulation in Two Catchments with Snow and Rain Dominated Hydrological Regimes",

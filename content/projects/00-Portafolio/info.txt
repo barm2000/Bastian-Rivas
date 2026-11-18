@@ -1,0 +1,9 @@
+Title: Portafolio Personal
+Label: Desarrollo web · Portafolio
+Summary: Diseño y desarrollo de portafolio web personal.
+Technologies: GitHub Pages · HTML · CSS · JavaScript · Automatización
+Link: https://barm2000.github.io/Bastian-Rivas/
+LinkText: Visitar Portafolio
+Order: 1
+Placeholder: Port
+Cover: logo.jpeg

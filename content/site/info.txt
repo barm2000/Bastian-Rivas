@@ -6,7 +6,7 @@ SiteURL: https://barm2000.github.io/Bastian-Rivas/
 Language: es-CL
 Robots: index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1
 # Pega aquí SOLO el valor content de la etiqueta que entrega Google Search Console. Déjalo vacío hasta obtenerlo.
-GoogleSiteVerification:
+GoogleSiteVerification:qwVoiL0DohaEADb33VF-OnypMuYF5laPumgKidM3oeI
 # Opcional: ruta o URL de una imagen 1200x630 para compartir el portafolio en redes.
 SocialImage:
 FooterName: Bastián Alejandro Rivas Maldonado

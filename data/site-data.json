@@ -323,19 +323,6 @@
       ]
     },
     {
-      "title": "Modelación hidrológica mediante SRM y modelos GRxJ",
-      "label": "Hidrología",
-      "summary": "Comparación del desempeño de SRM y la familia GRxJ, con y sin CemaNeige, para simulación diaria de caudales en cuencas chilenas con regímenes hidrológicos contrastantes.",
-      "technologies": "SRM · GRxJ · CemaNeige · QSWAT · R-SWAT",
-      "link": "https://doi.org/10.3390/w17233413",
-      "linkText": "Ver publicación asociada",
-      "order": 3,
-      "placeholder": "HYD",
-      "folder": "03-modelacion-hidrologica",
-      "media": [],
-      "cover": null
-    },
-    {
       "title": "Reconstrucción tridimensional de plantas",
       "label": "Reconstrucción 3D",
       "summary": "Desarrollo y comparación de flujos de reconstrucción mediante Structure from Motion, Multi-View Stereo y 3D Gaussian Splatting.",

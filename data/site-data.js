@@ -352,16 +352,31 @@ window.PORTFOLIO_DATA = {
       "order": 4,
       "placeholder": "HE",
       "cover": {
-        "src": "content/projects/04-hyperion-explorer/normal.png",
+        "src": "content/projects/04-hyperion-explorer/media/01_normal.png",
         "type": "image",
-        "name": "normal.png"
+        "name": "01_normal.png"
       },
       "folder": "04-hyperion-explorer",
       "media": [
         {
-          "src": "content/projects/04-hyperion-explorer/normal.png",
+          "src": "content/projects/04-hyperion-explorer/media/01_normal.png",
           "type": "image",
-          "name": "normal.png"
+          "name": "01_normal.png"
+        },
+        {
+          "src": "content/projects/04-hyperion-explorer/media/02_inter.png",
+          "type": "image",
+          "name": "02_inter.png"
+        },
+        {
+          "src": "content/projects/04-hyperion-explorer/media/03_res.png",
+          "type": "image",
+          "name": "03_res.png"
+        },
+        {
+          "src": "content/projects/04-hyperion-explorer/media/04_gif.png",
+          "type": "image",
+          "name": "04_gif.png"
         }
       ]
     },

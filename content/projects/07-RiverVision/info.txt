@@ -1,0 +1,7 @@
+Title: RiverVision
+Label: Image Velocimetry Suite
+Summary: Velocimetría superficial de ríos mediante visión computacional utilizando capturas de aéreas u desde cámaras estáticas.
+Technologies: PIV · LSPIV · PTV · Vectores de velocidad
+Order: 7
+Placeholder: RV
+Cover: RiverVision_icono.png

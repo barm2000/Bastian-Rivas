@@ -1,0 +1,7 @@
+Title: RasterClass Studio
+Label: Modelos de clasificación · Indicadores estadisticos
+Summary: Software Image Classification Suite con 20 modelos parametrizables para clasificar mediante rois y validaciones mediante indicadores estadisticos.
+Technologies: RGB · Multiespectral · Hiperespectral · Clasificaciones
+Order: 6
+Placeholder: RCS
+Cover: rasterclass_logo.png

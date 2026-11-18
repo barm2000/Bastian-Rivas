@@ -1,0 +1,7 @@
+Title: SentinelSR Suite
+Label: Modelos de superresolución
+Summary: Software recopilatorio de modelos de superresolución, descarga, comparaciones y análisis espectral.
+Technologies: Sentinel 2 · Superresolución · 2m · 2.5m
+Order: 5
+Placeholder: SR
+Cover: SentinelSR_icon.png

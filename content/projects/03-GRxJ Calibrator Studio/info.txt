@@ -1,0 +1,9 @@
+Title: GRxJ Calibrator Studio
+Label: Hidrología
+Summary: Interfaz de aplicación modelos lluvia - escorrentía con diferentes métodos de optimización, comparativas de desempeño y tiempos computacionales y análisis de sensibilidad local y global.
+Technologies: GRxJ · CemaNeige
+Link: https://doi.org/10.3390/w17233413
+LinkText: Ver publicación asociada
+Order: 3
+Placeholder: GRxJ Calibrator Studio
+Cover: logo.png

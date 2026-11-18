@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://barm2000.github.io/Bastian-Rivas/sitemap.xml

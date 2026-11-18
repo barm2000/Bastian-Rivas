@@ -877,6 +877,54 @@
       "folder": "03-3d-vision",
       "media": [],
       "cover": null
+    },
+    {
+      "title": "Cuantificación individual de plantas con SAM",
+      "status": "Próximamente",
+      "summary": "Curso aplicado a la detección individual de plantas utilizando SAM.",
+      "platforms": "Udemy · Hotmart",
+      "participants": 0,
+      "link": "",
+      "linkText": "Ver curso",
+      "order": 3,
+      "placeholder": "SAM",
+      "cover": {
+        "src": "content/courses/03-SAM/portada.png",
+        "type": "image",
+        "name": "portada.png"
+      },
+      "folder": "03-SAM",
+      "media": [
+        {
+          "src": "content/courses/03-SAM/portada.png",
+          "type": "image",
+          "name": "portada.png"
+        }
+      ]
+    },
+    {
+      "title": "Capacitación SentinelSR Suite",
+      "status": "Próximamente",
+      "summary": "Capacitación de modelos de superresolución.",
+      "platforms": "Udemy · Hotmart",
+      "participants": 0,
+      "link": "",
+      "linkText": "Ver curso",
+      "order": 4,
+      "placeholder": "SR",
+      "cover": {
+        "src": "content/courses/04-SentinelSR/portada.png",
+        "type": "image",
+        "name": "portada.png"
+      },
+      "folder": "04-SentinelSR",
+      "media": [
+        {
+          "src": "content/courses/04-SentinelSR/portada.png",
+          "type": "image",
+          "name": "portada.png"
+        }
+      ]
     }
   ],
   "contact": [

@@ -482,7 +482,7 @@ window.PORTFOLIO_DATA = {
       "year": "2026",
       "date": "2026-05",
       "authors": "Luis García S. · David González L. · Bastián Rivas M.",
-      "source": "IIT UdeC, OT OT-2025-245-11",
+      "source": "IIT UdeC, OT-2025-245-11",
       "link": "",
       "linkText": "",
       "order": 9999,

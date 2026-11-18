@@ -4,7 +4,7 @@ Role: Colaborador
 Year: 2024
 Date: 2024-09
 Authors: Luis García S. · David González L. · Bastián Rivas M.
-Source: iit UdeC, OT 2024-345-1
+Source: IIT UdeC, OT 2024-345-1
 Link: 
 LinkText:
 Order: 

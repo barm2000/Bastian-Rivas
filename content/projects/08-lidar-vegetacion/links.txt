@@ -1,0 +1,11 @@
+# Formato: Fecha | Tipo | Título | URL
+2026-04 | Opinión | Revista ACOFORAG · Nº55, p. 21 | https://revista.acoforag.cl/books/Revista-55-abril-2026/#p=21
+2026-01-13 | TV | Canal 9 BIOBIO · Frente Regional | https://www.canal9.cl/episodios/frente-regional/2026/01/13/equipo-interdisciplinario-udec-busca-evitar-incendios-forestales-con-inedito-proyecto
+2026-01 | Entrevista | Canal 9 BIOBIO | https://www.youtube.com/watch?v=eEq22yh66kA
+2026-01-11 | Prensa | Diario Concepción · Proyecto de prevención de incendios forestales | https://www.diarioconcepcion.cl/ciudad/2026/01/11/proyecto-de-prevencion-de-incendios-forestales-en-zona-de-tendido-electrico-genera-interes-publico-privado.html
+2026-01-11 | Prensa | Diario La Discusión · p. 20 | https://diariopapel.ladiscusion.cl/papeldigital/2026/enero/11012026/11012026.pdf
+2026-01-08 | Opinión | Diario Concepción · Prevención es conciencia y acción | https://www.diarioconcepcion.cl/editorial/2026/01/08/prevencion-es-conciencia-y-accion.html
+2026-01 | TV | TVU | https://www.youtube.com/watch?v=x6PiRoi19e0
+2026-01 | Vinculación | Reunión con la Seremi de Agricultura, Pamela Gatti | https://www.instagram.com/p/DTTBfjhDsf2/?igsh=MTk4d3A4dXRueGpsMQ%3D%3D&img_index=1
+2026-01 | Prensa | Noticias UdeC | https://noticias.udec.cl/investigadores-udec-desarrollan-metodologia-para-prevenir-incendios-forestales-en-zonas-de-tendido-electrico/
+2025 | Congreso | Presentación de resultados · 13° Congreso Internacional Biobío Energía 2025 | https://youtu.be/3n9FlP8bVYU?t=12074

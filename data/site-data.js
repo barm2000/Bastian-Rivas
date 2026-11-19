@@ -587,6 +587,21 @@ window.PORTFOLIO_DATA = {
       "cover": null
     },
     {
+      "title": "Close-range 3D-hyperspectral imaging and machine learning tools for high throughput plant phenotyping in abiotic stress studies of Eucalyptus spp.",
+      "type": "Proyecto",
+      "role": "Colaborador",
+      "year": "2026",
+      "date": "2026-03",
+      "authors": "Rosario Castillo F. · Santiago Yépez F. · Víctor Osores E. · Bastián Rivas M.",
+      "source": "FONDECYT REGULAR 1251201",
+      "link": "https://biospequdec.cl/proyectos/",
+      "linkText": "",
+      "order": 9999,
+      "folder": "2026-FONDECYT 1251201",
+      "media": [],
+      "cover": null
+    },
+    {
       "title": "Performance Evaluation of the SRM and GRxJ—CemaNeige Models for Daily Streamflow Simulation in Two Catchments with Snow and Rain Dominated Hydrological Regimes",
       "type": "Publicación",
       "role": "Autor",

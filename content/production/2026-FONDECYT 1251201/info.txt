@@ -1,0 +1,10 @@
+Title: Close-range 3D-hyperspectral imaging and machine learning tools for high throughput plant phenotyping in abiotic stress studies of Eucalyptus spp.
+Type: Proyecto
+Role: Colaborador
+Year: 2026
+Date: 2026-03
+Authors: Rosario Castillo F. · Santiago Yépez F. · Víctor Osores E. · Bastián Rivas M.
+Source: FONDECYT REGULAR 1251201
+Link: https://biospequdec.cl/proyectos/
+LinkText:
+Order: 

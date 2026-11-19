@@ -27,7 +27,7 @@ window.PORTFOLIO_DATA = {
     "description": "Desarrollo y aplico herramientas computacionales para estudiar sistemas forestales y ambientales mediante información espacial, temporal, espectral y tridimensional.",
     "tags": [
       "Ciencias Forestales",
-      "Hidrología",
+      "Hidrología Forestal",
       "Teledetección",
       "LiDAR",
       "Hiperespectral",
